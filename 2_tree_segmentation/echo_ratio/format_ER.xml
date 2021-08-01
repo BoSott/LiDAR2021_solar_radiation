@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="opalsFormatDefinitionStyle.xsl" ?>
+<opalsFormatDefinition>
+  <description>XYZ Normals EchoRatio ASCII Format</description>
+  <!-- Example for an ASCII OPALS Format Definition (OFD) that stores coordinates, normals, and EchoRatio
+       Fit for both Import and Export -->
+  <ascii>
+    <header>
+      <text val="x             y          z       nx        ny        nz        er " />
+    </header>
+    <data>
+      <entry val="x" format="12.3" />
+      <entry val="y" format="12.3" />
+      <entry val="z" format="9.3" />
+      <entry val="NormalX" format="8.4"/>
+      <entry val="NormalY" format="8.4"/>
+      <entry val="NormalZ" format="8.4"/>
+      <entry val="EchoRatio" format="6.2"/>
+    </data>
+  </ascii>
+</opalsFormatDefinition>

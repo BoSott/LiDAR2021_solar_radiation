@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="opalsFormatDefinitionStyle.xsl" ?>
+<!-- OPALS Format Definition Section --> <opalsFormatDefinition>
+<description>Import Format: xyz R G B</description>
+<!-- Example for a simple XYZ ASCII Format Definition for Import and Export -->
+<ascii>
+    <header>
+        <skipLines val="0" />
+    </header>
+    <commentInitiator val="#" />
+    <data>
+        <entry val="x" />
+        <entry val="y" />
+        <entry val="z" />
+    </data>
+</ascii>
+</opalsFormatDefinition>

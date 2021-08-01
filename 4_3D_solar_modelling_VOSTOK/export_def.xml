@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="opalsFormatDefinitionStyle.xsl" ?>
+<!-- OPALS Format Definition Section --> <opalsFormatDefinition>
+<description>Import Format: xyz Nx Ny Nz</description>
+<!-- Example for a simple XYZ ASCII Format Definition for Import and Export -->
+<ascii>
+    <header>
+        <skipLines val="0" />
+    </header>
+    <commentInitiator val="#" />
+    <data>
+        <entry val="x" />
+        <entry val="y" />
+        <entry val="z" />
+		<entry val="Nx" />
+        <entry val="Ny" />
+        <entry val="Nz" />
+    </data>
+</ascii>
+</opalsFormatDefinition>

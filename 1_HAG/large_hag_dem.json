@@ -1,0 +1,12 @@
+[
+    "large_ds.las",
+    {
+        "type":"filters.hag_dem",
+        "raster": "large_dtm_filled.tif"
+    },
+    {
+        "type":"writers.las",
+        "filename":"large_ds_HAG.las",
+        "extra_dims":"HeightAboveGround=float32"
+    }
+]
